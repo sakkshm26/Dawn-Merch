@@ -30,11 +30,11 @@ function Navbar() {
         <nav>
             <div className='navbar'>
                 <div className='logo'>
-                    <p><NavLink to='/' onClick={() => setToggle(1)}>Dawn Merch</NavLink></p>
+                    <p><NavLink to='/Dawn-merch' onClick={() => setToggle(1)}>Dawn Merch</NavLink></p>
                 </div>   
                 <div id='desktop-navbar'>
                     <ul className='nav-links'>
-                        <li><NavLink id='home' to='/' onClick={() => setToggle(1)}>Home</NavLink></li>
+                        <li><NavLink id='home' to='/Dawn-merch' onClick={() => setToggle(1)}>Home</NavLink></li>
                         <li><NavLink id='products' to='/products' onClick={() => setToggle(2)}>Products</NavLink></li>
                         <li><NavLink id='about' to='/about' onClick={() => setToggle(3)}>About</NavLink></li>
                         <li><NavLink id='contact' to='/contact' onClick={() => setToggle(4)}>Contact</NavLink></li>
