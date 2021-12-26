@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route exact path={"/", "/Dawn-Merch"} element={<Home/>} />
+        <Route exact path={"/", "/Dawn-merch"} element={<Home/>} />
         <Route exact path="/products" element={<Products/>} />
         <Route exact path = "/products/:id" element={<Product />} />
         <Route exact path = "/cart" element={<Cart />} />
