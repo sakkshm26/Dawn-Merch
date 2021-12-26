@@ -1,0 +1,68 @@
+#mobile-navbar{
+    display: none;
+}
+
+#mobile-navbar .icon{
+    font-size: 25px;
+    position: absolute;
+    top: 2.5rem;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.mobile-nav-links{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+    padding: 0;
+}
+
+.mobile-nav-links .links li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    transition: 0.2s ease-in-out;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 950px) {
+    #desktop-navbar{
+        display: none;
+    }
+
+    #mobile-navbar{
+        display: block;
+    }
+
+    .navbar li a{
+        color: white;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #mobile-navbar .icon{
+        right: 30px;
+    }
+}
+
+/* Utility Classes */
+#hide{
+    display: none;
+}
+
+.white{
+    color: white;
+}
+
+.hide-overflow{
+    overflow: hidden;
+}

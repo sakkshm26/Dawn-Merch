@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700&family=Kumbh+Sans:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'Karla', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700&family=Kumbh+Sans:wght@400;500;600;700&display=swap');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Karla', sans-serif;
+    background-color: #f8f8f8;
+}
